@@ -1,2 +1,2 @@
 # photoCharly
-Portfolio website for a photographer
+Charly Photography Portfolio website. Visit it [here](https://leochely.github.io/photoCharly/)
