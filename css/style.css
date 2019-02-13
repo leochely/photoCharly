@@ -14,10 +14,15 @@
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0,0.4); 
 }
+
 .content {
   margin: auto;
   padding: 20px;
   width: 80%;
+}
+
+.close{
+	color: #FFFFFF;
 }
 
 .close:hover,

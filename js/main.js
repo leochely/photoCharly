@@ -8,7 +8,6 @@ $(document).ready(function() {
 		$("#imgModal").html("<img class='img-responsive' src='" + src + "' />");
 		console.log("test")
 		modal.style.display = "block";
-		
 		span.onclick = function() {
 			modal.style.display = "none";
 		}
