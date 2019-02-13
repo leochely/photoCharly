@@ -9,6 +9,7 @@
   <link rel ="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -54,25 +55,33 @@
 		<h1> Ma vie, mon oeuvre</h1>
 		<div class="row">
 			<div class="col-md-3">
-				<img class="img-responsive img-thumbnail" src="images/photo1.jpg" alt="test"></img>
+				<a href="#" data-toggle="modal" data-target="#myModal">
+					<img class="img-responsive img-thumbnail" src="images/photo1.jpg" alt="test"></img>
+				</a>
 			</div>
 			<div class="col-md-9">
 				<p> Blablabla</p>
-			</div>
+			</div> 
 		</div>
 	</div>
 	<div class="container">
 		<h1>A la campagne</h1>
 		<div class="row">
 			<div class="col-md-3">
-				<img class="img-responsive img-thumbnail" src="images/photo3.jpg" alt="test"></img>
+				<a href="#" data-toggle="modal" data-target="#myModal">
+					<img class="img-responsive img-thumbnail" src="images/photo3.jpg" alt="test"></img>
+				</a>
 			</div>
 			<div class="col-md-3">
-				<img class="img-responsive img-thumbnail" src="images/photo2.jpg" alt="test"></img>
+				<a href="#" data-toggle="modal" data-target="#myModal">
+					<img class="img-responsive img-thumbnail" src="images/photo2.jpg" alt="test"></img>
+				</a>
 			</div>
 			<div class="col-md-3">
 				<div class="card">
-					<img class="img-responsive card-img-top" src="images/photo4.jpg" alt="Card image cap">
+					<a href="#" data-toggle="modal" data-target="#myModal">
+						<img class="img-responsive card-img-top" src="images/photo4.jpg" alt="Card image cap">
+					</a>
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item">Avec une legende</li>
 						<li class="list-group-item">Et d'autres indications</li>
@@ -81,10 +90,21 @@
 				</div>
 			</div>
 			<div class="col-md-3">
-				<img class="img-responsive img-thumbnail" src="images/photo5.jpg" alt="test"></img>
+				<a href="#" data-toggle="modal" data-target="#myModal">
+					<img class="img-responsive img-thumbnail" src="images/photo5.jpg" alt="test"></img>
+				</a>
 			</div>
 		</div>
 	</div>
-
+	<div class="modal fade" id="myModal" role="dialog" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body" id="showImg">
+			</div>
+		</div>
+	</div>
 </body>
 </html>

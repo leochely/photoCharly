@@ -1,3 +1,9 @@
 .container{
   margin-bottom: 30px;
 }
+.modal-lg {
+    width: 86%;
+}
+.modal-body {
+    overflow: auto;
+}
